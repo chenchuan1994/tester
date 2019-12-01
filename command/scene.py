@@ -218,6 +218,6 @@ class manageScenario:
 # manageScenario.newScenario(folder, name)
 if __name__ == "__main__":
     #test new
-    path = r'E:\project\easyTester\easyTester\test'
+    path = r'E:\project\tester\test'
     scname = ""
     manageScenario.buildScenario(path, scname)
