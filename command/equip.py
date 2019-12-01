@@ -319,27 +319,3 @@ class order:
 #         else:
 #             raise ValueError('Not support the model-{}'.format(model))
 
-if __name__ == "__main__":
-    eq = equipment()
-    eq.id = 10.0
-    eq.name
-    eq.name = 10
-    eq.equipment = 'BOARD'
-    eq.equipment
-    
-    eq.model = 'B380D'
-    eq.model
-
-    eq.usermsg
-
-    eq.connector1 = interface(0)
-    print('-------华丽分割线--------')
-
-    orde = order()
-    pro = collections.namedtuple('pro', 'cmd expect end encode')
-    a = pro('1', '2', '3', '4')
-
-    b = pro(cmd='log version', expect='B380', end='\\r\\n', encode='ascii')
-    orde.pro
-    a = str(type(pro))
-    print(a)
